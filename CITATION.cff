@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+title: "Divided Focus: Separated Memory Spaces and Default-Deny Context Triage for LLM Context Management"
+authors:
+  - family-names: Phan
+    given-names: Ivan
+    alias: HiP
+    orcid: "https://orcid.org/0009-0003-1095-5855"
+type: article
+date-released: "2026-03-31"
+doi: "10.5281/zenodo.19353247"
+url: "https://doi.org/10.5281/zenodo.19353247"
+license: CC-BY-4.0
+keywords:
+  - LLM architecture
+  - prompt injection
+  - context management
+  - memory separation
+  - command-data separation
+  - default-deny triage
+  - verification inversion
+  - AI security
+abstract: >-
+  This paper proposes an architecture for LLM context management that
+  separates commands and data into distinct memory spaces with default-deny
+  triage. All incoming content enters the data tier by default and must pass
+  through evaluation and summarisation gates before promotion to the command
+  tier. The architecture addresses both prompt injection vulnerability and
+  context degradation as consequences of the undifferentiated context window.
+  Native Memory Paper 2.
